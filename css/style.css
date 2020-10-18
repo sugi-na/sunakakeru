@@ -15,11 +15,11 @@ header {
 
 .id img {
     margin-top: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
     border-radius: 20px;
-    width: 600px;
-    height: 400px;
+    width: 700px;
+    height: 450px;
 }
 
 
@@ -54,7 +54,6 @@ header {
 
 footer {
     color: silver;
-    position: absolute;
     text-align: right;
     bottom: 0;
     left: 0;
