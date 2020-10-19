@@ -16,6 +16,7 @@ header {
 
 .id img {
     margin-top: 20px;
+    margin-left: 340px;
     border-radius: 20px;
     width: 800px;
     height: 500px;
@@ -23,7 +24,9 @@ header {
 
 
 .btn-square-soft {
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 400px;
     display: inline-block;
     position: relative;
     text-decoration: none;
