@@ -21,7 +21,9 @@ header {
     width: 800px;
     height: 500px;
 }
-
+.botn {
+    margin-left: 270px;
+}
 
 .btn-square-soft {
     margin-top: 20x;
@@ -31,7 +33,7 @@ header {
     position: relative;
     text-decoration: none;
     color: #f9a9ae;
-    width: 100px;
+    width: 100%;
     height: 50px;
     line-height: 50px;
     border-radius: 5px;
