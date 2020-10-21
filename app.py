@@ -16,56 +16,56 @@ def template():
     return render_template('base.html')
 
 #1 が押されたとき
-@app.route('/daijyobu',methods=['GET'])
+@app.route('/daijyobu',methods=['POST'])
 def daijyobu():
     return render_template("daijyobu.html")
 
 #2 が押されたとき
-@app.route('/warai',methods=['GET'])
+@app.route('/warai',methods=['POST'])
 def warai():
     return render_template("warai.html")    
 
 #3がおされたとき
-@app.route('/gennki')
+@app.route('/gennki',methods=['POST'])
 def gennki():
     return render_template("gennki.html") 
 
 #4
-@app.route('/itudemo')
+@app.route('/itudemo',methods=['POST'])
 def itudemo():
     return render_template("itudemo.html")     
 
 #5
-@app.route('/jisin')
+@app.route('/jisin',methods=['POST'])
 def jisin():
     return render_template("jisin.html")
 #6
-@app.route('/miti')
+@app.route('/miti',methods=['POST'])
 def miti():
     return render_template("miti.html")    
 
 #7
-@app.route('/musiba')
+@app.route('/musiba',methods=['POST'])
 def musiba():
     return render_template("musiba.html")    
 
 #8
-@app.route('/neru')
+@app.route('/neru',methods=['POST'])
 def neru():
     return render_template("neru.html") 
 
 #9
-@app.route('/sasuga')
+@app.route('/sasuga',methods=['POST'])
 def sasuga():
     return render_template("sasuga.html") 
 
 #10
-@app.route('/takara')
+@app.route('/takara',methods=['POST'])
 def takara():
     return render_template("takara.html")
 
 #ひょうしへ
-@app.route('/base')
+@app.route('/base',methods=['POST'])
 def base():
     return render_template("base.html")
 
