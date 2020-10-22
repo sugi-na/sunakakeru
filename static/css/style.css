@@ -68,3 +68,7 @@ footer {
     height: 30px;
     background-color: #ffcdd2;
 }
+
+body {
+    background-image: url("../img/sakura.jpg");
+}
