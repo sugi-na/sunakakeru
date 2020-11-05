@@ -1,0 +1,103 @@
+html {
+	overflow-y: scroll;
+	/* IEへの対応 http://www.htmq.com/style/overflow-y.shtml */
+	/*Internet Explorerが独自に追加したプロパティ*/
+	/*画面に収まりきれなかったときにスクロールして表示することを許可するか否か*/
+}
+body{
+    margin: 0px;
+	padding: 0px;
+}
+body {
+	background: #fff;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.4;
+	min-width: 100%;
+    -webkit-text-size-adjust: 100%;}
+
+
+img {
+        border: 0px;
+        vertical-align: bottom;    
+    
+}
+/* --------------------------------------------------- */
+    
+header {
+    font-family: "ヒラギノ丸ゴ ProN", "Hiragino Maru Gothic ProN";
+    font-size: 50px;
+    height: 60px;
+    widows: 100%;
+    text-align: left;
+    color: white;
+    background-color: #ffcdd2;
+    text-align:center;
+}
+
+
+.box {
+    max-width: 1200px;
+	margin: 0 auto;
+    background-color: thistle;
+}
+
+
+.id img {
+    margin-top: 20px;
+
+    border-radius: 20px;
+    width: 80% ;
+    height: auto;
+}
+.botn {
+    display: none; 
+    margin:20px auto;
+}
+
+.btn-square-soft {
+    /*margin-top: 20px;*/
+    /*margin-bottom: 20px;*/
+    margin:0 auto;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: #f9a9ae;
+    width: 100%;
+    height: auto;
+    line-height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    font-weight: bold;
+    background: linear-gradient(#fed6e3 0%, #ffaaaa 100%);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+}
+
+.btn-square-soft:active {
+    /*押したとき*/
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+    /*沈むように*/
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+    background-image: linear-gradient(#fed6e3 0%, #ffbcbc 100%);
+    /*グラデーションを明るく*/
+}
+
+
+
+
+footer {
+    color: silver;
+    text-align: right;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #ffcdd2;
+}
+
+body {
+    background-image: url("../img/sakura.jpg");
+}

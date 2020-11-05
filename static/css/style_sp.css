@@ -1,3 +1,28 @@
+html {
+	overflow-y: scroll; /* IEへの対応 http://www.htmq.com/style/overflow-y.shtml */
+	/*Internet Explorerが独自に追加したプロパティ*/
+	/*画面に収まりきれなかったときにスクロールして表示することを許可するか否か*/
+}
+
+body{
+    margin: 0px;
+	padding: 0px;
+}
+img {
+	border: 0px;
+    vertical-align: bottom;
+}
+
+
+body {
+	background: #fff;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.4;
+	min-width: 100%;
+    -webkit-text-size-adjust: 100%;}
+    
+
 header {
     font-family: "ヒラギノ丸ゴ ProN", "Hiragino Maru Gothic ProN";
     font-size: 50px;
@@ -17,25 +42,25 @@ header {
 
 .id img {
     margin-top: 20px;
-    margin-left: 340px;
+    
     border-radius: 20px;
-    width: 800px;
-    height: 500px;
+    width: 80%;
+    height: auto;
 }
 .botn {
-    margin-left: 270px;
+    margin:20px auto;
 }
 
 .btn-square-soft {
-    margin-top: 20x;
-    margin-bottom: 20px;
-    margin-left: 50px;
+    /*margin-top: 20px;*/
+    /*margin-bottom: 20px;*/
+    margin: 0 auto;
     display: inline-block;
     position: relative;
     text-decoration: none;
     color: #f9a9ae;
     width: 100%;
-    height: 50px;
+    height: auto;
     line-height: 50px;
     border-radius: 5px;
     text-align: center;
